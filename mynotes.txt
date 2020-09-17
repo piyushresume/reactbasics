@@ -1,3 +1,21 @@
 
 npm install gh-pages
     (To install github pages in application)
+
+
+INSTALL YARN
+
+    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+        The GPG key ensures that you’re installing authentic software. Next, add the Yarn repository:
+
+    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+        This adds the Yarn repository to your master repository list.
+
+    add yarn repository to your Ubuntu system
+        Now, your standard package manager can access and manage Yarn.
+
+    sudo apt-get update
+        Update your local repository listings:
+
+    sudo apt-get install yarn
+        Install Yarn:
